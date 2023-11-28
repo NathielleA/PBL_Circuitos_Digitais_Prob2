@@ -1,6 +1,0 @@
-module counter_2bit(input clk, output X[1:0]);
-
- flipflopt fft0(.clk(clk), .t(1'b1), .q(X[0]));
- flipflopt fft1(.clk(W[0]), .t(1'b1), .q(X[1]);
-
-endmodule 

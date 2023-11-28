@@ -1,9 +1,0 @@
-module counter_8bit(input clk, output X);
-
- wire [2:0]W;
-
- flipflopt fft0(.clk(clk), .t(1'b1), .q(W[0]));
- flipflopt fft1(.clk(W[0]), .t(1'b1), .q(W[1]));
- flipflopt fft2(.clk(W[1]), .t(1'b1), .q(X));
-
-endmodule 
