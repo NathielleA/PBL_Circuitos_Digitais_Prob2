@@ -1,0 +1,20 @@
+module decod_coordenadas(X, L, C);
+
+	input [2:0]L;
+	input [2:0]C;
+	output[5:0]X;
+	
+	wire not_L0, not_L1, not_L2;
+	wire not_C0. not_C1, not_C2;
+	
+	wire T1, T2
+	
+	not Inv0(not_L0, L[0]);
+	not Inv1(not_L1, L[1]);
+	not Inv2(not_L2, L[2]);
+	
+	not Inv3(not_C0, C[0]);
+	not Inv4(not_C1, C[1]);
+	not Inv5(not_C2, C[2]);
+	
+	
